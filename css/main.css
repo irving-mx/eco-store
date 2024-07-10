@@ -25,6 +25,43 @@ nav .icons button {
   border-style: none;
 }
 
+article {
+  width: auto;
+  color: #7C6A0A;
+  padding: 0 45px;
+  display: flex;
+  justify-content: space-between;
+}
+article .impact-section {
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  gap: 25px;
+}
+article h1 {
+  font-size: 3em;
+  padding: 0px;
+  margin: 0px;
+}
+article p {
+  font-size: 1.5em;
+}
+article button {
+  background: none;
+  border-style: none;
+  width: 12vw;
+  padding: 20px;
+  height: 75px;
+  border-radius: 35px;
+  background-color: #FA9500;
+  font-size: 1em;
+  color: white;
+}
+article img {
+  width: 25vw;
+  border-radius: 19px;
+}
+
 footer {
   background-color: #FA9500;
   width: 100%;
