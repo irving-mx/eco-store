@@ -41,6 +41,7 @@ article{
     // background-color: rgb(232, 235, 55);
     display: flex;
     justify-content: space-between;
+    padding-top: 70px;
     // .impact-section{
     //     // width:50%;
     //     background-color: #7c410a;
@@ -79,6 +80,37 @@ article{
         }
     // }
 }
+section{
+    width:100%;
+    height:auto;
+    // background-color:pink;
+    padding: 60px;
+    h2{
+        color:$primary-text-color;
+        font-size:2em;
+    }
+    .healthcare{
+        h2{
+            font-weight:300;
+            padding-bottom: 60px;
+        }
+        .product-card{
+            width: 12vw;
+            height:auto;
+            background-color: $secondary-color;
+            color: $primary-text-color;
+            padding:20px;
+            border-radius:8px;
+            img{
+                width:200px;
+                height:250px;
+                background-size:cover;
+                border-radius:6px;
+            }
+        }
+    }
+}
+
 footer{
     background-color: $quaternion-color;
     width:100%;
