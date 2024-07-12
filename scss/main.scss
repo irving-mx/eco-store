@@ -85,6 +85,9 @@ article{
             background-color: $quaternary-color;
             font-size: 1em;
             color:white;
+            &:hover{
+                transform: scale(1.1);
+            }
 
         }
         img{
@@ -167,7 +170,7 @@ section{
             font-weight: bold;
             padding-bottom: 60px;
         }
-        .mision-section{
+        .mission-section{
             @include flexCenter(row,space-evenly ,center );
             // display: flex;
             // justify-content: space-around;
@@ -188,6 +191,26 @@ section{
                 @extend .earth;
             }
         }
+}
+.gallery{
+    padding-bottom: 60px;
+    h2{
+        font-weight: bold;
+        padding-bottom: 60px;
+    }
+    .gallery-images{
+        @include flexCenter(row,space-between ,center );
+        img{
+            width:28vw;
+            height:45vh;
+            object-fit:cover;
+            object-position: 5px 35%;
+            border-radius:16px;
+            &:hover{
+                transform: scale(1.1);
+            }
+        }
+    }
 }
 footer{
     background-color: $quaternary-color;
